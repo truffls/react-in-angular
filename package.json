@@ -1,6 +1,6 @@
 {
   "name": "react-in-angular",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Use your React component in Angular",
   "main": "dist/index.js",
   "scripts": {
