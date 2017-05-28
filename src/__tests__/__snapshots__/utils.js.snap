@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<span
+  className="Decorator-2"
+>
+  <span
+    className="Decorator-1"
+  >
+    <span>
+      MyContent
+    </span>
+  </span>
+</span>
+`;
