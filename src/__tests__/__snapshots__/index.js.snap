@@ -1,25 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`toComponent createComponent AngularJS component renders correctly with props 1`] = `
-<span
-  data-reactroot=""
->
+<span>
   My 1st Title
 </span>
 `;
 
 exports[`toComponent createComponent AngularJS component renders correctly with props 2`] = `
-<span
-  data-reactroot=""
->
+<span>
   My 2nd Title
 </span>
 `;
 
 exports[`toComponent createComponent AngularJS component renders correctly without props 1`] = `
-<span
-  data-reactroot=""
->
+<span>
   MyComponent
 </span>
 `;

@@ -1,6 +1,3 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-
 import { createMapScopeToProps, wrapWithDecorators } from './utils';
 import { createRenderer } from './renderer';
 
@@ -17,7 +14,7 @@ function toComponent (decorators) {
                 this.$injector = $injector;
 
                 this.WrappedComponent = wrapWithDecorators(this.resolveDecorators(decorators))(Component);
-                
+
                 this.renderer = createRenderer(this.WrappedComponent, $element[0]);
             }
 
@@ -27,7 +24,7 @@ function toComponent (decorators) {
 
             $onChanges () {
                 const props = mapScopeToProps(this);
-                
+
                 this.renderer.render(props);
             }
 
