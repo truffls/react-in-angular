@@ -56,7 +56,7 @@ function Controller () {
 
 In your angular template:
 ```html
-<click-me-button title="$ctrl.type" on-click="$ctrl.onClick($event)"></click-me-button>
+<click-me-button type="$ctrl.type" on-click="$ctrl.onClick($event)"></click-me-button>
 ```
 
 ### Supported bindings
