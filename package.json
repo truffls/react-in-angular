@@ -47,6 +47,10 @@
     "react-dom": "^16.0.0"
   },
   "jest": {
-    "testEnvironment": "jsdom"
+    "testEnvironment": "jsdom",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/dist/"
+    ]
   }
 }
