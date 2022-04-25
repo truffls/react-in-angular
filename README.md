@@ -1,4 +1,4 @@
-# react-in-angular [![Build Status](https://travis-ci.org/truffls/react-in-angular.svg?branch=master)](https://travis-ci.org/truffls/react-in-angular)
+# react-in-angular ![Build Status](https://github.com/truffls/react-in-angular/actions/workflows/main.yml/badge.svg)
 
 ## Installation
 
